@@ -32,7 +32,58 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.css-1ri6ub7-MuiPaper-root-MuiCard-root{
+  max-width: 35rem !important;
+}
+.postsAndComments {
+  display: flex;
+  flex-flow: row wrap;
+
+  column-gap: 5rem;
+}
+
+.postsAndComments>.MuiList-root>.css-1juivf6-MuiTypography-root {
+  padding: 1rem;
+  text-align: center;
+}
+
+.posts,
+.css-i7rae6-MuiList-root {
+  max-width: 50rem !important;
+}
+
+.spacer {
+  margin-top: 1rem;
+}
+
+.addPost {
+  display: inline-block;
+  padding: 1rem;
+
+}
+
+.postComment {
+  margin-left: 1rem !important;
+  margin-right: 1rem !important;
+}
+
+.postsBody {
+  height: 400px;
+  overflow: auto;
+}
+.commentsBody{
+  height: 300px;
+  overflow: auto;
+}
+.commentBody{
+  padding: 0 1rem 0 1rem;
+  text-align: center;
+  display: inline-block;
+  text-align: justify;
 }
